@@ -8,9 +8,11 @@ body{
 }
 
 .container{
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
+    display: grid;
+    place-items: center;
     height: 100vh;
     margin: 0 auto;
     max-width: 900px;
@@ -27,8 +29,8 @@ body{
     justify-content: center;
     padding: 40px 0px;
     border-radius: 20px;
-    width: 300px;
-    max-width: 320px;
+    width: 90%;
+    max-width: 37.5rem;
 }
 
 img{
